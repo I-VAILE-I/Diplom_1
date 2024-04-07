@@ -21,4 +21,16 @@
 
 **Запуск автотестов и создание HTML-отчета о покрытии**
 
->  `$ pytest --cov=praktikum --cov-report=html`
+>  `$ python -m pytest --cov --cov-report=html`
+ 
+
+> Module	statements	missing	excluded	coverage
+> __init__.py	0	0	0	100%
+> praktikum\__init__.py	0	0	0	100%
+> praktikum\bun.py	8	0	0	100%
+> praktikum\database.py	21	0	0	100%
+> praktikum\ingredient.py	11	2	0	82%
+> praktikum\ingredient_types.py	2	0	0	100%
+> tests\__init__.py	0	0	0	100%
+> tests\test_data_base.py	26	3	0	88%
+> Total	68	5	0	93%
